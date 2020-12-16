@@ -43,7 +43,7 @@ int main(int argc, char* args[])
     if (argc > 1)
         input = std::atoi(args[1]);
 
-    if (input == 0)
+    if (input <= 0)
         return 1;
 
     // Cast input for functions to unsigned 64 bit int
